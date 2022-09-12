@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    background-color: hsl(224deg 32% 9%);
+}
+
+h2 {
+    font-family: century gothic;
+    color: white;
+    font-weight: 500;
+    margin: 1rem 0 1rem 1rem;
+}
+
+nav {
+    background-color: hsl(223deg 36% 14%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav i {
+    font-size: 2rem;
+    color: hsl(225deg 21% 46%);
+    margin: 0.5rem;
+}
+
+.fa-clapperboard {
+    color: hsl(359deg 94% 63%);
+}
+
+i:hover {
+    color: hsl(240deg 14% 99%);
+}
+
+.fa-clapperboard {
+    margin-right: auto;
+}
+
+.fa-user {
+    margin-left: auto;
+}
+
+.search-bar {
+    width: 100%;
+    height: 3rem;
+    padding: 0 0 0 3rem;
+    font-family: century gothic;
+    font-size: 1.4rem;
+    background: hsl(224deg 32% 9%);
+    border: 0;
+}
+
+.search-area .fa-magnifying-glass {
+    color: hsl(225deg 21% 46%);
+    position: absolute;
+    top: 3.5rem;
+    margin: 0;
+    left: 0.5rem;
+}
+
+.trending-movies {
+    /*width: 30rem;*/
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 1rem;
+    gap: 1rem;
+    margin: 0.5rem 0;
+}
+
+li {
+    position: relative;
+}
+
+img {
+    max-height: 150px;
+    width: auto;
+    border-radius: 30px;
+}
+
+.transparent-background {
+    height: 2rem;
+    width: 2rem;
+    background-color: hsl(0deg 0% 0% / 70%);
+    position: absolute;
+    right: 0.8rem;
+    top: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.fa-regular {
+    /*position: absolute;
+    right: 1rem;
+    top: 1rem;*/
+    color: white;
+}
+
+.details {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+span {
+    font-family: century gothic;
+    color: rgba(255, 255, 255, 0.8);
+    display: inline;
+}
+
+h3 {
+    color: white;
+    margin: 0;
+    font-weight: 500;
+    font-family: century gothic;
+}
