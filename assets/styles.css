@@ -89,7 +89,7 @@ li {
     position: relative;
 }
 
-img {
+.trending-movies img {
     max-height: 150px;
     max-width: 250px;
     width: auto;
@@ -204,8 +204,39 @@ h3 {
     color: rgba(255, 255, 255, 0.5);
 }
 
-@media screen and (min-width: 992px) {
-    body {
-        background-color: blue;
+@media screen and (min-width: 550px) {
+    .recommended {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    nav {
+        border-radius: 10px;
+        margin: 1rem 1rem 0 1rem;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .recommended {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    main {
+        margin-left: 5rem;
+        margin-top: 1rem;
+    }
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        z-index: 2;
+        left: 0;
+        margin: 1rem;
+        height: -webkit-fill-available;
+        top: 0;
+    }
+    .fa-user {
+        margin: auto auto 1rem auto;
+    }
+    .fa-clapperboard {
+        margin: 1rem auto auto auto;
     }
 }
